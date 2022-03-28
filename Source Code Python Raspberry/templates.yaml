@@ -1,0 +1,17 @@
+welcome_text : Welcome to The Polytechnic State of Semarang. This is New Technology Smart Dispenser on Telecommunication Engineering, Polytechnic State of Semarang. You can say, tell POLINES Cool Water Dispenser, tell POLINES Fresh Water Dispenser, tell POLINES Hot Water Dispenser, tell POLINES Coffee Water Dispenser, OR tell POLINES Tea Water Dispenser
+
+fallback_message : Opppss.... Sorry. I did NOT understand your Say Request Smart Dispenser command
+
+command1 : Thank you, Enjoy your Fresh Water Smart Dispenser.  And Welcome to Polytechnic State of Semarang.
+command2 : Thank you, Enjoy your Cool Water Smart Dispenser. And  Welcome to Polytechnic State of Semarang.
+command3 : Thank you, Enjoy your Hot Water Smart Dispenser. And Welcome to Polytechnic State of Semarang.
+command4 : Thank you, Enjoy your Coffee Smart Dispenser. And Welcome to Polytechnic State of Semarang.
+command5 : Thank you, Enjoy your Tea Smart Dispenser. And Welcome to Polytechnic State of Semarang.
+
+command_reprompt : Do you want to drink?. Please, Say repeat again.
+
+command_reprompt1 : Do you want to Fresh Water? Repeat againt, you can say. tell POLINES Fresh water dispenser.
+command_reprompt2 : Do you want to Cool Water? Repeat againt, you can say. tell POLINES Cool water dispenser.
+command_reprompt3 : Do you want to Hot Water? Repeat againt, you can say. tell POLINES Hot Water dispenser.
+command_reprompt4 : Do you want to Coffe? Repeat againt, you can say. tell POLINES Coffee water dispenser.
+command_reprompt5 : Do you want to Tea? Repeat againt, you can say. tell POLINES tea water dispenser.
