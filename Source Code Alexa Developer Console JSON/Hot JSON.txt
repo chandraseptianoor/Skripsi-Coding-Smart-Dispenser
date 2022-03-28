@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "polines hot",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HotIntent",
+                    "slots": [
+                        {
+                            "name": "dispenser",
+                            "type": "HotValue"
+                        }
+                    ],
+                    "samples": [
+                        "smart {dispenser}",
+                        "water smart {dispenser}",
+                        "water {dispenser}",
+                        "{dispenser}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "HotValue",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "dispenser"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

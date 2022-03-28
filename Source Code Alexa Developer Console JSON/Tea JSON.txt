@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "polines tea",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TeaIntent",
+                    "slots": [
+                        {
+                            "name": "dispenser",
+                            "type": "TeaValue"
+                        }
+                    ],
+                    "samples": [
+                        "smart {dispenser}",
+                        "water smart {dispenser}",
+                        "water {dispenser}",
+                        "{dispenser}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "TeaValue",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "dispenser"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

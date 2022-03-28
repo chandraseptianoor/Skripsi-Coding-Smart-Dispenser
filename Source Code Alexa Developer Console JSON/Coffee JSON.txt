@@ -1,0 +1,50 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "polines coffee",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "CoffeeIntent",
+                    "slots": [
+                        {
+                            "name": "dispenser",
+                            "type": "CoffeeValue"
+                        }
+                    ],
+                    "samples": [
+                        "smart {dispenser}",
+                        "{dispenser}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CoffeeValue",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "dispenser"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

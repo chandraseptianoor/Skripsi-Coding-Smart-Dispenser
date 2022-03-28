@@ -1,0 +1,52 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "polines fresh",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "FreshIntent",
+                    "slots": [
+                        {
+                            "name": "dispenser",
+                            "type": "FreshValue"
+                        }
+                    ],
+                    "samples": [
+                        "smart {dispenser}",
+                        "water smart {dispenser}",
+                        "water {dispenser}",
+                        "{dispenser}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "FreshValue",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "dispenser"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
