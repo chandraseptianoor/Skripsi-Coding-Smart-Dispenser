@@ -1,1 +1,2 @@
-Smart Dispenser
+## SMART DISPENSER SISTEM MENGGUNAKAN ALEXA DAN MIKROKONTROLER RASPBERRY PI 3B
+![Foto Real](https://user-images.githubusercontent.com/58181734/160316797-f9f154a0-a612-4e09-960c-87650f5a8865.jpg)
